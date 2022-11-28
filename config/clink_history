@@ -1,0 +1,312 @@
+|CTAG_1642768016_86254750_10364_0
+|D..
+|D..
+|D..
+|D..
+CD xampp
+|d htdocs
+composer create-project --prefer-dist laravel/laravel:^8.0 Pointdepresse
+composer --v
+composer -v
+php -v
+composer create-project --prefer-dist laravel/laravel:^7.0 Pointdepresse
+composer create-project laravel/laravel pointdepresse
+CD pointdepresse
+|hp artisan serve
+npm i -D vue@/compiler-sfc vue-loader@next
+npm -v
+|hp artisan serve
+php artisan make:model Actif -m
+|hp artisan migrate
+php artisan make:controller ActifController -r
+|hp artisan serve
+|hp artisan serve
+|hp artisan serve
+|hp artisan serve
+|hp artisan serve
+composer require consoletvs/charts "7.*"
+php artisan vendor:publish --tag=charts
+|hp artisan serve
+|D..
+composer create-project --prefer-dist laravel/laravel laravelvuejs
+|d laravelvuejs
+|hp artisan serve
+|d..
+|s
+cd laravelvuejs
+|hp artisan serve
+|hp artisan serve
+|pm run dev
+node --v
+node -v
+|d..
+|d vuejs
+Get-ExecutionPolicy
+|d..
+cd vuejs
+|pm install
+|pm install -g @vue/cli
+npm uninstall vue-cli
+npm install -g n
+php artisan make:model fichedenotification -m
+|hp artisan migrate
+php artisan make:controller FichedenotficationController -r
+|hp artisan migrate:fresh
+|hp artisan migrate:fresh
+|hp artisan serve
+|hp artisan migrate:fresh
+|hp artisan serve
+|hp artisan migrate:fresh
+|hp artisan migrate:fresh
+|hp artisan migrate:fresh
+|hp artisan serve
+|d..
+mkdir laravelvueexemple
+cd laravelvueexemple
+|d..
+composer create-project laravel/laravel crud --prefer-dist
+|d crud
+|hp artisan migrate
+php artisan make:controller UserController --r
+php artisan make:controller UserController -r
+|omposer require laravel/ui
+|hp artisan ui vue
+|pm install vue-router vue-axios
+|pm install vue-router
+|pm install
+np;m run dev
+|pm run dev
+|pm install vue-router vue-axios
+|pm install vue-router@4
+npm install vue-route
+npm install vue-axios
+|pm run watch
+|pm install
+|pm run dev
+|pm update vue-loader
+|pm run watch
+|d..
+|d crud
+|hp artisan serve
+|pm install vue-router
+|pm install
+|pm install vue-router
+|pm run dev
+|pm install
+|pm install vue-router
+npm update vue-loader
+|pm install vue-router
+|pm install vue-router@4
+|pm install
+|pm install vue-router
+npm install vue-router@4
+npm install vue-route vue-axios
+|pm install vue-router vue-axios
+|pm install vue-router vue-axios
+|pm install
+|pm install vue-router vue-axios
+|d..
+|d crud
+|pm install
+|pm run dev
+npm run warch
+npm install vue-router
+|pm install
+|pm run watch
+npm install --save vue-router@next 
+npm install --save vue-router
+npm install vue-router -dev
+php artisan ui vue
+npm install vue-router vue-axios
+|d..
+composer create-project laravel/laravel crud2 --prefer-dist
+|d..
+cd htdocs
+cd crud2
+|d..
+|d crud
+npm install vue-router --force
+|pm run watch
+|d..
+cd crud
+|hp artisan serve
+npm run watch
+|d..
+composer create-project laravel/laravel crud3 --prefer-dist
+|d crud3
+npm install -g @vue/cli
+vue create my-router-project
+cd my-router-project
+|pm run serve
+|d..
+|d..
+cd crud3
+cd vue-crud
+|pm run serve
+|D..
+CD..
+CD pointdepressenv
+cd vue
+|pm run serve
+|pm install
+npm run serve
+|pm run dev
+PHP ARTISAN SERVE
+php artisan migate:fresh
+|hp artisan migrate:fresh
+|hp artisan migrate:fresh
+php artisan make:chart SalesChart
+|:
+C:/
+mysql --v
+mysql --version
+MYSQL -v
+C:\Users\SurvEpid2\eclipse-workspace\Angular-front-end
+cd C:\Users\SurvEpid2\eclipse-workspace\Angular-front-end
+|pm install -g @angular/cli
+C:
+C cd/
+C: cd/
+|d..
+|d..
+|d..
+cd Users
+|s
+cd SurvEpid2
+|s
+cd Documents
+|s
+cd Angularprojects
+> ng new angular --minimal
+npm install -g @angular/cli
+ng new my-second-project
+|s
+cd my-second-project
+|g serve
+|d C:\Users\SurvEpid2\Documents\Angularprojects\my-second-project(master)
+cd/
+cd C:\Users\SurvEpid2\Documents\Angularprojects\my-second-project(master)
+cd Users\SurvEpid2\Documents\Angularprojects\my-second-project
+ng serve
+ng g s services/post
+ng g c components/post-form
+ng g c components/post-list
+ng g class Post --type=model
+|hp artisan serve
+php artisan make:request Wilayarequest
+php artisan make:request RapportRequest
+php artisan make:Nombredefosa -m
+php artisan make: model Nombredefosa -m
+php artisan make:model Nombredefosa -m
+php artisan make:controller NombredefosaController -r
+|hp artisan serve
+|d..
+composer create-project --prefer-dist laravel/laravel:^7.0 laravelchart
+cd pointdepresseenv
+cd pointdepressenv
+php artisan make:model Chart
+|hp artisan serve
+php artisan make:chart SampleChart
+|hp artisan serve
+|hp artisan migrate:fresh
+|hp artisan migrate:fresh
+|hp artisan serve
+|hp artisan serve
+php artisan make:model Wilayaprelev -m
+php artisan make:controller WilayaprelevController -r
+|hp artisan migrate
+php artisan make:model Moughprelev -m
+|hp artisan migrate
+|hp artisan migrate:fresh
+|hp artisan migrate:fresh
+|hp artisan migrate:fresh
+|hp artisan serve
+|hp artisan serve
+|hp artisan migrate:fresh
+|hp artisan serve
+|hp artisan serve
+|hp artisan serve
+|hp artisan serve
+|hp artisan serve
+|hp artisan serve
+|hp artisan serve
+|hp artisan serve
+php artisan server
+|hp artisan serve
+|hp artisan serve
+composer require barryvdh/laravel-dompdf
+ php artisan vendor:publish --provider="Barryvdh\DomPDF\ServiceProvider"
+|hp artisan serve
+|hp artisan serve
+composer require spatire/laravel-permission
+composer require spatie/laravel-permission
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider
+|hp artisan migrate
+php artisan permision:create-role writer
+php artisan permission:create-role writer
+php artisan permission:create-role user
+php artisan permission:create-role admin
+|hp artisan serve
+|d..
+composer create-project --prefer-dist laravel/laravel permission
+|d permission
+|hp artisan serve
+|d..
+|d permission
+php artisan -help
+composer require laravel/ui
+|hp artisan ui bootstrap --auth
+npm install
+ npm install -g npm@8.12.2
+|pm run dev
+php artisan ui bootstrap
+ npm install
+npm run dev
+php artisan ui bootstrap --auth
+|d..
+|d permission
+|hp artisan serve
+|d..
+cd permission
+|hp artisan migrate
+|hp artisan serve
+|hp artisan serve
+|hp artisan serve
+|hp artisan serve
+|hp artisan serve
+|hp artisan serve
+php artisan migrate:fresh
+|hp artisan serve
+|d..
+cd pointdepresse1
+|s
+|:
+mkdir laravelApp
+cd laravelApp
+|omposer create-project --prefer-dist laravel/laravel:^* pp
+|omposer create-project --prefer-dist laravel/laravel:^* pp
+composer create-project --prefer-dist laravel/laravel:^* pp
+composer --ignore-platform-req=ext-fileinfo
+cd..
+|omposer create-project --prefer-dist laravel/laravel App
+composer create-project --prefer-dist laravel/laravel App
+|omposer create-project --prefer-dist laravel/laravel App2
+|omposer create-project --prefer-dist laravel/laravel App2
+|:
+composer create-project --prefer-dist laravel/laravel App2
+cd App
+|d App2
+php artisan serve
+|:
+cd App2
+|hp artisan migrate
+php artisan migrate
+G:
+ls
+composer create-project --prefer-dist laravel/laravel Laravel_Excel
+cd Laravel_Excel
+composer require maatwebsite/excel
+composer require psr/simple-cache:^2.0 maatwebsite/excel
+php artisan vendor:publish --provider="Maatwebsite\Excel\ExcelServiceProvider" --tag=config
+php artisan make:export UsersExport --model=User
+php artisan make:controller UserController
