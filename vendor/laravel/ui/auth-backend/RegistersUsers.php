@@ -20,10 +20,10 @@ trait RegistersUsers
      */
     public function showRegistrationForm()
     {
-        $niveauplanification=Niveauplanification::all();
+        $niveauplanifications=Niveauplanification::get();
         
 
-        return view('auth.register', compact('niveauplanification'));
+        return view('auth.register', compact('niveauplanifications'));
     }
 
     /**

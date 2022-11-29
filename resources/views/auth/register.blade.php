@@ -46,8 +46,8 @@
                                 <div class="col-md-6">
                                     <select  id="niveauplanification_id" class="form-select form-select-lg mb-3 @error('niveauplanification_id') is-invalid @enderror" name="niveauplanification_id">
                                         <option value="">Choisissez un Niveau de Planification</option>
-                                        @foreach ($niveauplanification as $niveauplanification)
-                                            <option value="{{ $niveauplanification->id }}">{{ $niveauplanification->name_niveauplanification }}</option>
+                                        @foreach ($niveauplanifications as $key)
+                                            <option value="{{ $key->id }}">{{ $key->name_niveauplanification }}</option>
                                         @endforeach
             
                                     </select>
