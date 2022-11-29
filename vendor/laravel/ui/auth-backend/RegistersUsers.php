@@ -4,8 +4,6 @@ namespace Illuminate\Foundation\Auth;
 
 use App\Models\Appui;
 use App\Models\Niveauplanification;
-use App\Models\Service;
-use App\Models\Sousdirection;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -22,7 +20,7 @@ trait RegistersUsers
      */
     public function showRegistrationForm()
     {
-        $niveauplanification=Niveauplanification::get();
+        $niveauplanification=Niveauplanification::all();
         
 
         return view('auth.register', compact('niveauplanification'));
