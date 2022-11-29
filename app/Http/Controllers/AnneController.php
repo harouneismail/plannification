@@ -37,7 +37,7 @@ class AnneController extends Controller
         $annee->name_annees = $request->input('name_annees');
 
         $annee->save();
-        session()->flash('success', 'Success');
+        session()->flash('success', 'Success\'');
         return redirect('annee');
     }
     public function destroy(Request $request)

@@ -118,7 +118,6 @@
 </body>
 <script>
 $(document).ready(function(){
-    $('#myTable').DataTable();
 
     
     getResultatComposaante();
