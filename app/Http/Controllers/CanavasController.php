@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\CanavasRequest;
 use App\Models\Annee;
 use App\Models\Axe;
 use App\Models\Canavasappui;
@@ -88,7 +89,7 @@ class CanavasController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(CanavasRequest $request)
     {
         $canavas = new Canneva();
         $canavas->user_id = Auth::user()->id;
@@ -149,7 +150,7 @@ class CanavasController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(CanavasRequest $request, $id)
     {
         $canavas=Canneva::find($id);
         $canavas->user_id = $request->input('user_id');
